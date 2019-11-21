@@ -1,6 +1,8 @@
 import * as Stomp from 'stompjs';
 import * as SockJS from 'sockjs-client';
 import { AppComponent } from './app.component';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 
 export class WebSocketAPI {
     webSocketEndPoint: string = 'http://localhost:8080/ws';
