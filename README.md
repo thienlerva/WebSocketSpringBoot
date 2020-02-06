@@ -14,10 +14,9 @@ Inside the project we have to install tree libraries with commands:
 
 Follow below steps to run front-end Angular application:
 
-git clone https://github.com/RameshMF/angular8-springboot-websocket
-cd front-end/angular8-springboot-websocket
-npm install
-ng serve
+1. cd ~Documents/WebSocket-SpringBoot/angular8-springboot-websocket
+2. npm install
+3. ng serve
 
 Follow below steps to run back-end application:
 1. Extract the back-end zip file
