@@ -6,11 +6,11 @@ https://www.javaguides.net/2019/06/spring-boot-angular-8-websocket-example-tutor
 Update angular 8: npm install -g @angular/cli
 
 Inside the project we have to install tree libraries with commands:
-npm install stompjs;
-npm install sockjs-client
-npm install jquery
 
-npm i net -S
+1. npm install stompjs;
+2. npm install sockjs-client
+3. npm install jquery
+4. npm i net -S
 
 Follow below steps to run front-end Angular application:
 
@@ -23,3 +23,7 @@ Follow below steps to run back-end application:
 1. Extract the back-end zip file
 2. cd back-end/springboot-stomp-websocket
 3. mvn spring-boot:run
+
+Preferences:
+1. https://www.roytuts.com/spring-boot-websocket-angularjs-gradle-example/
+2. https://www.javaguides.net/2019/06/spring-boot-angular-8-websocket-example-tutorial.html
