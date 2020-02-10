@@ -34,9 +34,10 @@ export class AppComponent implements OnInit {
       that.client.subscribe("/topic/greeting", (message) => {
         if (message.body) {
           this.greeting = message.body;
-          //$(".msg").append(this.greeting);
+          $(".msg").append(this.greeting);
           $(".msg").html(this.greeting);
           //alert(this.greeting);
+          console.log(this.greeting);
         }
       });
     });
